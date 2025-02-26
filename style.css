@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+@media (max-width: 460px) {
+    body{
+        background-color: white;
+    }
+}
