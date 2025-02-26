@@ -14,3 +14,8 @@ body{
         background-color: white;
     }
 }
+.container{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
