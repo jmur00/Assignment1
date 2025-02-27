@@ -7,39 +7,50 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     </head>
+
     <body>
-        <header class="bg-primary text-white text-center p-4">
-            <h1>Welcome to My Portfolio</h1>
+        <div class="container text-center mt-4">
+            <!-- Header Section-->
+        <header class="p-4 rounded">
+            <h1>Jane Murphy</h1>
+            <p>Maths and Computer Science Teacher</p>
         </header>
 
-        <section class="container mt-4">
+        <!-- About Section -->
+        <section class="p-4 rounded my-3">
             <h2>About Me</h2>
             <p>My name is Jane Murphy. I am a third year student studying Bachelor of Science and Education in Mathematics and Computer Science in the University of Limerick.</p>
         </section>
 
-        <section class="container mt-4">
+        <!-- Skills Table -->
+        <section class="p-4 rounded my-3">
             <h2>Skills & Interests</h2>
             <table class="table table-bordered">
-                <tr>
-                    <th>Skill</th>
-                    <th>Proficiency</th>
-                </tr>
-                <tr>
-                    <td>HTML</td>
-                    <td>Beginner</td>
-                </tr>
-                <tr>
-                    <td>CSS</td>
-                    <td>Learning</td>
-                </tr>
-                <tr>
-                    <td>JavaScript</td>
-                    <td>Learning</td>
-                </tr>            
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML & CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>Bootstrap</td>
+                        <td>Learning</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Learning</td>
+                    </tr>  
+                </tbody>          
             </table>
         </section>
 
-        <section class="container mt-4">
+        <!-- More About Me Section -->
+        <section class="p-4 rounded my-3">
             <h2>More About Me</h2>
             <h3>Future Goals</h3>
             <p>In the future, I want to be able to help develop my students skills in coding through the work completed in school. I hope that I can encourage the students to follow their dreams even if they believe it is too hard to achieve.</p>
@@ -58,5 +69,6 @@
         <footer class="bg-dark text-white text-center p-3 mt-4">
             <p>© 2025 My Portfolio</p>
         </footer>
+        </div>
     </body>
 </html>
