@@ -3,83 +3,84 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfolio of Jane Murphy, a third-year student studying Maths and Computer Science.">
         <title>My Portfolio</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     </head>
 
     <body>
-        <div class="container-fluid text-center">
-
-            <!-- Header Section-->
-            <header class="full-height bg-primary text-white p-4">
-                <h1>Jane Murphy</h1>
-                <p>Maths and Computer Science Teacher</p>
-            </header>
-
+        <nav class="navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
-
-                        <!-- About Section -->
-                        <section class="full-height bg-light p-4">
-                            <h2>About Me</h2>
-                            <p>My name is Jane Murphy. I am a third year student studying Bachelor of Science and Education in Mathematics and Computer Science in the University of Limerick.</p>
-                        </section>
-
-                        <!-- Skills Table -->
-                        <section class="full-height bg-secondary text-white p-4">
-                            <h2>Skills & Interests</h2>
-                            <table class="table table-bordered bg-white text-dark">
-                                <thead>
-                                    <tr>
-                                        <th>Skill</th>
-                                        <th>Level</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>HTML & CSS</td>
-                                        <td>Beginner</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Bootstrap</td>
-                                        <td>Learning</td>
-                                    </tr>
-                                    <tr>
-                                        <td>JavaScript</td>
-                                        <td>Learning</td>
-                                    </tr>  
-                                </tbody>          
-                            </table>
-                        </section>
-
-                        <!-- More About Me Section -->
-                        <section class="full-height bg-info text-white p-4">
-                            <h2>More About Me</h2>
-                            <h3>Future Goals</h3>
-                            <p>In the future, I want to be able to help develop my students skills in coding through the work completed in school. I hope that I can encourage the students to follow their dreams even if they believe it is too hard to achieve.</p>
-                        </section>
-
-                        <section class="full-height bg-warning p-4">
-                            <h2>Reflection & Future Plans</h2>
-                            <p>This page represents me as a student teacher with goals of helping my students to be the best version of themselves and achieving their goals.</p>
-                        </section>
-
-                        <section class="full-height bg-danger text-white p-4">
-                            <h2>My Design Process</h2>
-                            <img src="images/boxified-design.jpg" alt="Boxified Design" class="img-fluid">
-                        </section>
-
-                        <!-- Footer -->
-                        <footer class="p-4 rounded my-3 full-height">
-                            <p>© 2025 My Portfolio</p>
-                        </footer>
-                    </div>
+                <a class="navbar-brand" href="#">My Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </nav>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+        <!-- About Section -->
+         <section id="about" class="p-5 text-center">
+            <div class="container">
+                <h1>Welcome to My Portfolio</h1>
+                <p>My name is Jane Murphy and I am a third-year student studying Maths and Computer Science with concurrent teacher education at the University of Limerick. I am passionate about technology and enjoy learning new programming languages and frameworks. I am currently looking for a summer internship in the maths and computer science industry through the STInt programme.</p>
+            </div>
+         </section>
+
+         <!-- Skills Section -->
+          <section id="skils" class="p-5">
+            <div class="container">
+                <h2 class="text-center">Skills</h2>
+                <table class="table table-bordered mt-3">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Skill</th>
+                            <th>Level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML & CSS</td>
+                            <td>Beginner</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Beginner</td>
+                        </tr>
+                        <tr>
+                            <td>Bootstrap</td>
+                            <td>Beginner</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+          </section>
+
+          <!-- Interests Section -->
+           <section id="interests" class="p-5 text-center">
+            <div class="container">
+                <h2>My Intertests</h2>
+                <p>I am interested in learning new programming languages and frameworks. I am also interested in teaching and would like to become a secondary school teacher in the future.</p>
+            </div>
+           </section>
+
+           <!-- Contact Section -->
+           <section id="contact" class="p-5 text-center">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Email: janemurphy02@gmail.com</p>
+                </div>
+           </section>
+
+           <!-- Bootstrap Script -->
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
     </body>
 </html>
