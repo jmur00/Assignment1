@@ -1,0 +1,71 @@
+/* Background colors for sections */
+#about { background-color: #ADD8E6; } /* Light blue */
+#skills { background-color: #87CEFA; } /* Sky blue */
+#interests { background-color: #4682B4; } /* Steel blue */
+#more-about-me { background-color: #4169E1; } /* Royal blue */
+#reflection { background-color: #0000CD; } /* Medium blue */
+#contact { background-color: #00008B; } /* Dark blue */
+#report { background-color: #ADD8E6;} /* Light blue */
+
+/* Make the navbar links change color on hover */
+.navbar-nav .nav-link:hover {
+    color: #FFD700 !important; /* Gold hover effect */
+}
+
+/* Make tables more visually appealing */
+table{
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Ensure responsiveness */
+@media (max-width: 460px) {
+    #about, #skills, #interests, #more-about-me, #contact {
+        background-color: white !important;
+    }
+}
+
+/* Style buttons or interactive elements */
+button, .btn{
+    transition: 0.3s ease-in-out;
+}
+
+button:hover, .btn:hover {
+    background-color: #FFD700 !important;
+    color: black !important;
+}
+
+section {
+    text-align: justify;
+    padding: 50px 0;
+}
+
+/*Make images round for better design */
+img { 
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+ul {
+    padding-left: 15px !important; 
+    margin-left: 0 !important;
+    list-style-position: inside;
+}
+
+section ul {
+    text-align: center; /* Ensures proper alignment */
+}
+
+footer { 
+    background-color: #00008B; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
